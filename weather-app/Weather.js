@@ -48,49 +48,49 @@ const weatherList = {
         icon: 'weather-rainy'       
     },
     Smoke: {
-        colors:["#89F7FE", "#66A6FF"],
+        colors:["#D7D2CC", "#304352"],
         title: "Smoke",
         subtitle: "Actually, outside of the house",
         icon: 'weather-fog'       
     },
     Haze: {
-        colors:["#89F7FE", "#66A6FF"],
+        colors:["#D7D2CC", "#304352"],
         title: "Haze",
         subtitle: "Actually, outside of the house",
         icon: 'weather-fog'       
     },
     Dust: {
-        colors:["#89F7FE", "#66A6FF"],
+        colors:["#D7D2CC", "#304352"],
         title: "Dust",
         subtitle: "Actually, outside of the house",
         icon: 'weather-fog'       
     },
     Fog: {
-        colors:["#89F7FE", "#66A6FF"],
+        colors:["#D7D2CC", "#304352"],
         title: "Fog",
         subtitle: "Actually, outside of the house",
         icon: 'weather-fog'       
     },
     Sand: {
-        colors:["#89F7FE", "#66A6FF"],
+        colors:["#D7D2CC", "#304352"],
         title: "Sand",
         subtitle: "Actually, outside of the house",
         icon: 'weather-fog'       
     },
     Ash: {
-        colors:["#89F7FE", "#66A6FF"],
+        colors:["#D7D2CC", "#304352"],
         title: "Ash",
         subtitle: "Actually, outside of the house",
         icon: 'weather-fog'       
     },
     Squall: {
-        colors:["#89F7FE", "#66A6FF"],
+        colors:["#D7D2CC", "#304352"],
         title: "Squall",
         subtitle: "Actually, outside of the house",
         icon: 'weather-hurricane'       
     },
     Tornado: {
-        colors:["#89F7FE", "#66A6FF"],
+        colors:["#D7D2CC", "#304352"],
         title: "Tornado",
         subtitle: "Actually, outside of the house",
         icon: 'weather-hurricane'       
