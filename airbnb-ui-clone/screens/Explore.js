@@ -2,6 +2,7 @@ import React from 'react';
 import { StyleSheet, Text, View, SafeAreaView, TextInput, Platform, StatusBar, ScrollView, Image, Dimensions } from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
 import Category from './components/Explore/Category';
+import Home from './components/Explore/Home';
 const { height, width } = Dimensions.get('window');
 class Explore extends React.Component {
     componentWillMount() {
@@ -60,6 +61,32 @@ class Explore extends React.Component {
                         source={require('../assets/home.jpg')}
                       />
                     </View>
+                  </View>
+                </View>
+                <View style={{marginTop: 40}}>
+                  <Text style={{fontSize: 24, fontWeight: '700', paddingHorizontal: 20}}>
+                      Homes around the world
+                  </Text>
+                  <View style={{ paddingHorizontal: 20, marginTop: 20, flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'space-between' }}>
+                    <Home width={width}
+                        name="The Cozy Place"
+                        type="PRIVATE ROOM - 2 BEDS"
+                        price={82}
+                        rating={4}
+                    ></Home>
+                    <Home width={width}
+                        name="The Cozy Place"
+                        type="PRIVATE ROOM - 2 BEDS"
+                        price={82}
+                        rating={4}
+                    ></Home>
+                    <Home width={width}
+                        name="The Cozy Place"
+                        type="PRIVATE ROOM - 2 BEDS"
+                        price={82}
+                        rating={4}
+                    ></Home>
+                    
                   </View>
                 </View>
             </ScrollView>
