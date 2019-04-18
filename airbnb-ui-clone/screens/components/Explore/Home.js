@@ -11,8 +11,8 @@ class Home extends React.Component {
           source={require('../../../assets/home.jpg')}/>
         </View>
         <View style={{ flex: 1, alignItems: 'flex-start', justifyContent:'space-evenly', paddingLeft: 10 }}>
-          <Text style={{ fontSize: 10, color: '#b63838'}}>PRIVATE ROOM - 2 BEDS</Text>
-          <Text style={{ fontSize: 12, fontWeight: 'bold' }}>The Cozy Palace</Text>
+          <Text style={{ fontSize: 10, color: '#b63838'}}>{this.props.type}</Text>
+          <Text style={{ fontSize: 12, fontWeight: 'bold' }}>{this.props.name}</Text>
           <Text style= {{fontSize: 10}}>{this.props.price}$</Text>
           <StarRating 
             disable={true}
